@@ -15,6 +15,8 @@ Simply clone this repo, copy the following files into your own repo:
 Please install [vagrant-hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater) plugin, as it will be
 quite easy to add other aliases to your box.
 
+`$ vagrant plugin install vagrant-hostsupdater`
+
 ## Todo:
 - I have to edit the serve script so we can add mutliple server_aliases to nginx vhost
 - Clean up some stuff
