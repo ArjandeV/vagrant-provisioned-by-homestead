@@ -11,12 +11,17 @@ Simply clone this repo, copy the following files into your own repo:
 - Vagrantfile
 - Homestead.yaml
 
-## Other documentation
+## Dependency
 Please install [vagrant-hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater) plugin, as it will be
 quite easy to add other aliases to your box.
 
-`$ vagrant plugin install vagrant-hostsupdater`
+```
+$ vagrant plugin install vagrant-hostsupdater
+```
 
-## Todo:
+### Todo:
 - I have to edit the serve script so we can add mutliple server_aliases to nginx vhost
 - Clean up some stuff
+
+### Special thanks to
+[Taylor Otwell](https://github.com/taylorotwell) for the great [Laravel framework](https://github.com/laravel/framework) but ofcourse for [Homestead](https://github.com/laravel/homestead)
